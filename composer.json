@@ -1,0 +1,22 @@
+{
+  "name": "m12u/amqp-bundle",
+  "description": "AMQP client consumer Bundle for Symfony 3",
+  "authors": [
+    {
+      "name": "Michel Dourneau #m12u",
+      "email": "contact@michel-dourneau.fr"
+    }
+  ],
+  "version": "1.0.0",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "M12U\\Bundle\\AmqpBundle\\": ""
+    }
+  },
+  "require": {
+    "php": ">=7",
+    "php-amqplib/php-amqplib": "2.6.*"
+  }
+}
